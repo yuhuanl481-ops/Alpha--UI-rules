@@ -1,0 +1,180 @@
+{
+  "primary-text-800": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.929411768913269,
+        0.42352941632270813,
+        0
+      ],
+      "alpha": 1,
+      "hex": "#ED6C00"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:5:1296",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:8e3775fcf401b6297424f3ca70d4d749b80d4277/-1:-1",
+        "targetVariableName": "orange/800",
+        "targetVariableSetId": "VariableCollectionId:54c664e526a81e26dbf9166548e5984a71e5f02a/-1:-1",
+        "targetVariableSetName": "03-颜色调色板"
+      }
+    }
+  },
+  "primary-accent-700": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        1,
+        0.45490196347236633,
+        0
+      ],
+      "alpha": 1,
+      "hex": "#FF7400"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:5:1294",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:9010bcd7f3dedf449a95e18b46aebbec0d408f5e/-1:-1",
+        "targetVariableName": "orange/700",
+        "targetVariableSetId": "VariableCollectionId:54c664e526a81e26dbf9166548e5984a71e5f02a/-1:-1",
+        "targetVariableSetName": "03-颜色调色板"
+      }
+    }
+  },
+  "primary-brand-500": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.9803921580314636,
+        0.5372549295425415,
+        0.09803921729326248
+      ],
+      "alpha": 1,
+      "hex": "#FA8919"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:5:1293",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:0b08fb5fee58cabe5a16024c9819e4e5383a50cb/-1:-1",
+        "targetVariableName": "orange/500",
+        "targetVariableSetId": "VariableCollectionId:54c664e526a81e26dbf9166548e5984a71e5f02a/-1:-1",
+        "targetVariableSetName": "03-颜色调色板"
+      }
+    }
+  },
+  "primary-hover-400": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.9803921580314636,
+        0.6039215922355652,
+        0.16470588743686676
+      ],
+      "alpha": 1,
+      "hex": "#FA9A2A"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:5:1292",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:aef3bb548b4cb1bc9360b045c7b31c42980ca30c/-1:-1",
+        "targetVariableName": "orange/400",
+        "targetVariableSetId": "VariableCollectionId:54c664e526a81e26dbf9166548e5984a71e5f02a/-1:-1",
+        "targetVariableSetName": "03-颜色调色板"
+      }
+    }
+  },
+  "primary-disabled-300": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.9921568632125854,
+        0.7686274647712708,
+        0.5490196347236633
+      ],
+      "alpha": 1,
+      "hex": "#FDC48C"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:5:1291",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:4809210f5fce03d0b3dd8a254420ba5536e8e679/-1:-1",
+        "targetVariableName": "orange/300",
+        "targetVariableSetId": "VariableCollectionId:54c664e526a81e26dbf9166548e5984a71e5f02a/-1:-1",
+        "targetVariableSetName": "03-颜色调色板"
+      }
+    }
+  },
+  "primary-border-hover-200": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        1,
+        0.8352941274642944,
+        0.6705882549285889
+      ],
+      "alpha": 1,
+      "hex": "#FFD5AB"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:5:1290",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:0eb98a9c39b37eca065b1443df7483a887e8ac14/-1:-1",
+        "targetVariableName": "orange/200",
+        "targetVariableSetId": "VariableCollectionId:54c664e526a81e26dbf9166548e5984a71e5f02a/-1:-1",
+        "targetVariableSetName": "03-颜色调色板"
+      }
+    }
+  },
+  "primary-bg-light-50": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        1,
+        0.9803921580314636,
+        0.9647058844566345
+      ],
+      "alpha": 1,
+      "hex": "#FFFAF6"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:5:1295",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:07094678418a5e18e547ed11e1b6396bd54da0bd/-1:-1",
+        "targetVariableName": "orange/50",
+        "targetVariableSetId": "VariableCollectionId:54c664e526a81e26dbf9166548e5984a71e5f02a/-1:-1",
+        "targetVariableSetName": "03-颜色调色板"
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "🍊橙"
+  }
+}

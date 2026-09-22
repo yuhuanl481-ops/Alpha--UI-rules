@@ -1,0 +1,5 @@
+interface:
+  display_name: "Alpha Design Rules"
+  short_description: "Enforce Alpha design-system tokens in UI work"
+  brand_color: "#FA8919"
+  default_prompt: "Use $alpha-design-rules to create or review this interface against the Alpha design system."
