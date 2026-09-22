@@ -27,6 +27,14 @@ Before choosing, generating, editing, or reviewing a single-line text input, rea
 
 Before choosing, generating, editing, or reviewing a multiline text input, read [references/multiline-text-inputs.md](references/multiline-text-inputs.md). The multiline reference is distilled from Figma node `476:1071` and preserves its 76px input area and character-counter layout.
 
+Before choosing, generating, editing, or reviewing an icon used by the search input or checkbox components, read [references/icons.md](references/icons.md). Reuse the approved SVG assets in `assets/icons/`; do not replace them with Unicode, icon fonts, third-party icons, CSS-drawn shapes, or approximate redraws.
+
+## Required icon behavior
+
+1. Treat the supplied SVGs in `assets/icons/` as the canonical geometry and source artwork for search and checkbox icons.
+2. Preserve each asset's viewBox, aspect ratio, intrinsic path geometry, and approved fills. Only the documented checkbox state variants may change fills, and they must retain the canonical paths and dimensions.
+3. Use the exact asset-to-state mapping in [references/icons.md](references/icons.md), [references/search-inputs.md](references/search-inputs.md), and [references/checkboxes.md](references/checkboxes.md). If a needed state has no approved asset or token treatment, report the gap instead of inventing an icon.
+
 ## Required color behavior
 
 1. Select colors by semantic role, not by visual similarity or personal preference.

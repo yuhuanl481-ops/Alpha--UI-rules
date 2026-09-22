@@ -16,6 +16,12 @@ The source exposes 16 combinations. `indeterminate` is the half-selected state a
 - Indeterminate mark: `8px × 8px`, centered, `2px` corners. The source uses `radius-2` behavior; treat it as checkbox-local until a global radius-2 token is supplied.
 - Keep the control at 16px in every state so state changes never shift adjacent content.
 
+## Approved icon assets
+
+- `checked` + `normal` + `default`: use [`assets/icons/checkbox-checked-default.svg`](../assets/icons/checkbox-checked-default.svg), supplied as `样式=默认, 选中=on, 复选=off.svg`. It is a `16×16` SVG with a `14×14` outer layer (`rx=4`, `#FA8919`) and the supplied white check path.
+- `indeterminate` + `default`: use [`assets/icons/checkbox-indeterminate-default.svg`](../assets/icons/checkbox-indeterminate-default.svg), supplied as `样式=默认, 选中=off, 复选=on.svg`. It is a `16×16` SVG with the supplied `14×14` outer layer, `12×12` white inner layer, and `8×8` orange mark.
+- For hover, pressed, and disabled variants without a supplied file, preserve the exact geometry, viewBox, and check/indeterminate path from the matching canonical asset and change only the state-matrix fills. Do not use Unicode, an icon font, a CSS pseudo-element, or a hand-drawn approximation.
+
 ## State matrix
 
 | State | Unchecked | Checked | Indeterminate |
@@ -25,7 +31,7 @@ The source exposes 16 combinations. `indeterminate` is the half-selected state a
 | `pressed` | `theme.orange.primary-accent-700` outer layer + white inner layer | Orange pressed selected asset/treatment | `theme.orange.primary-accent-700` outer layer + white inner layer + matching `8px` center mark |
 | `disabled` | `stroke.strong` outer layer + `bg.sub-hover-150` inner layer | Disabled selected asset/treatment from the Figma source | `stroke.strong` outer layer + white inner layer + `stroke.strong` center mark |
 
-The Figma source represents checked states partly through supplied SVG assets. When implementing, use the project's icon/asset mechanism or an equivalent accessible check mark; do not substitute a text glyph whose shape or baseline differs.
+The Figma source represents checked and indeterminate states through the supplied SVG assets above. Use the project's icon/asset mechanism or inline the exact SVG markup when necessary; do not substitute a text glyph whose shape or baseline differs.
 
 ## Interaction and accessibility
 

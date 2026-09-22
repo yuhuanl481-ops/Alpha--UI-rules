@@ -16,6 +16,12 @@ Source: Alpha Design System Figma node `482:5823` (`搜索框`). Use one shared 
 
 Keep the default minimum width at `200px`; the Figma reference uses a wider 250–300px presentation depending on the state/content arrangement. Do not force a fixed width when the consuming layout supplies one.
 
+## Approved icon assets
+
+- Leading/search action: use [`assets/icons/search-line.svg`](../assets/icons/search-line.svg), the supplied `icon-search-line.svg` artwork (`20×20`, `viewBox="0 0 20 20"`, fill `#C3C6C8`). Render it at `20px` for 36/40px inputs and at `16px` for the 32px input, preserving the aspect ratio and path geometry.
+- Clear action in `inputting`: use [`assets/icons/search-close-fill.svg`](../assets/icons/search-close-fill.svg), the supplied `icon-close-fill.svg` artwork (`16×16`, `viewBox="0 0 16 16"`, fill `#C3C6C8`).
+- Do not use a text glyph, icon font, third-party icon, CSS drawing, or approximate redraw. Keep the supplied gray artwork unless an explicitly approved state-specific asset is added.
+
 ## Appearance and state mapping
 
 | Appearance | Default | Hover | Inputting | Disabled |
@@ -33,9 +39,9 @@ State semantics:
 ## Layout and interaction
 
 - Use `PingFang SC`, regular weight `400`, `14px` font size, `20px` line height, and single-line text.
-- The leading search icon is 20px at the 36/40 sizes and 16px at size 32. The input and icons are vertically centered.
+- The leading search icon is the approved `search-line.svg`, 20px at the 36/40 sizes and 16px at size 32. The input and icons are vertically centered.
 - Use an `8px` gap between the leading icon and text. In the action area, use a `12px` gap around the 14px vertical separator and the `搜索` label.
-- In `inputting`, place the clear icon before the search action; the clear icon is 16px and the search icon remains the size-specific search icon.
+- In `inputting`, place the approved `search-close-fill.svg` before the search action; the clear icon is 16px and the approved `search-line.svg` remains the size-specific search icon.
 - Keep the search action as a real button with an accessible name. Keep the clear action as a separate real button with an accessible name such as “清除搜索内容”.
 - Use a native input or framework input primitive. `disabled` must be a real disabled/read-only control, not only a muted style.
 - Preserve `:focus-visible`; the Figma state matrix does not replace keyboard focus behavior.
